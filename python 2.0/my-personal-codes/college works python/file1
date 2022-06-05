@@ -1,0 +1,20 @@
+OPERATION MODES
+The Cortex-M3 processor has two modes and two privilege levels. 
+The operation modes - thread mode and handler mode- determine whether 
+the processor is running a normal program or running an exception handler 
+like an interrupt handler or system exception handler. 
+The privilege levels (privileged level and user level) provide a mechanism 
+for safeguarding memory accesses to critical regions as well as providing a 
+basic security model.
+Software in the privileged access level can switch the program into the user 
+access level using the control register. 
+When an exception takes place, the processor will always switch back to the 
+privileged state and return to the previous state when exiting the exception 
+handler.
+A user program cannot change back to the privileged state by writing to the 
+control register.
+It has to go through an exception handler that programs the control register 
+to switch the processor back into the privileged access level when returning to 
+thread mode 
+It can be used in conjunction with privilege levels to protect critical memory 
+locations, such as programs and data for OS.

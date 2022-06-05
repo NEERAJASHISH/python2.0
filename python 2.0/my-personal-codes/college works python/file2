@@ -1,0 +1,82 @@
+INTELLIGENT DEVICE CONTROL USING BRAIN MACHINE INTERFACE
+UG-Project/ECE Page 1
+Synopsis
+INTELLIGENT DEVICE CONTROL USING BRAIN MACHINE 
+INTERFACE
+Student’s Name USN
+Nitin T 1JB18EC064
+Pranesh B 1JB18EC068
+D P Tejash 1JB18EC102
+Shree Charan 1JB18EC087
+GUIDE: Dr Mahantesh K
+Problem Statement 
+• The ultimate purpose of a direct brain computer interface (BCI) is to allow an individual with severe motor 
+disabilities to have effective control over devices.
+• Enabling the communication with computers and controls of external devices such as robotic agents.
+• A small SNR and different noise sources are amongst the greatest challenges in EEG-based BCI 
+application studies.
+• People with ALS, spinal cord injury or brain-stem stroke represent populations for whom BCI is important 
+and useful. Hence there arises a need for faster, more reliable BCI systems that work for more potential 
+users.
+ 
+Project chosen
+• The main purpose of choosing this project is, Brain-computer interfaces (BCIs), it allows the users to 
+communicate or control external devices using brain signals rather than the brain's normal output pathways 
+of peripheral nerves and muscles. 
+• Motivated by the hope of restoring independence to severely disabled individuals and by interest in further 
+extending human control of external systems, researchers from many fields are engaged in this challenging 
+new work.
+INTELLIGENT DEVICE CONTROL USING BRAIN MACHINE INTERFACE
+UG-Project/ECE Page 2
+Objective
+• This project attempts to implement an Arduino robot to simulate a brainwave-controlled wheelchair for 
+paralyzed patients with an improved controlling method.
+• The robot should be able to move freely in anywhere under the control of the user and it is not required to 
+predefine any map or path.
+Scope
+• The process can be tracked in real time. Once connected, a user can communicate with other users online 
+by using brainwaves detected via an EEG device.
+• Evaluating using Machine learning algorithms and to develop an efficient BCI model.
+Methodology
+• These brain activities can be detected using electroencephalographic (EEG) signals. BCI transforms the 
+EEG signals produced by brain activity into control signals which can be later used for controlling the 
+wheelchair without using any physical controls. 
+• Since the brain signals are very weak, we need to apply amplifiers and some spatial and spectral filters to 
+the EEG signals in order to extract the features of these signals.
+• The detected EEG signals are based on the change of frequencies and change of amplitudes. 
+• Unwanted signals contained in the main signal can be termed as noise, artifacts, or interference. There are 
+two sources of EEG artifacts: external or environmental source and physiological source.
+• To achieve higher mobility and lower cost, instead of a laptop, a powerful single-board computer like 
+raspberry pi can be used to implement and train the neural network.
+INTELLIGENT DEVICE CONTROL USING BRAIN MACHINE INTERFACE
+UG-Project/ECE Page 3
+Hardware And Software Used
+• Neuroelectrics Instrument Controller (NIC2) – Software that allows computers to interact and control 
+Neuroelectrics devices. 
+• EEG kit 
+• EDF Browser – A graphic viewer designed to analyze EEG
+• MATLAB 2021 
+• Python
+• Arduino Uno, RC Car Chassis 4WD (4 Wheel Drive).
+• HC05 Bluetooth module.
+• L293D/L298N (Motor driver).
+• Ultrasonic Sensor, IR sensor.
+Applications 
+• The future work will be implementing this method to a real wheelchair and take experiments with some 
+paralysis patients like ALS.
+• EEG-based BCIs include spelling systems, wheelchair control, robot control, mental workload, virtual 
+reality, and gaming, environment control, driver fatigue monitoring, biometrics system, and emotion 
+recognition.
+• Brain-computer interfaces (BCI) are increasingly becoming reliable pieces of technology, changing the 
+lives of patients, particularly of patients who suffer from paralysis or similar conditions.in which one of 
+the scopes is A project called “Brainternet” is generating additional excitement for the field of BCI 
+technology by converting the brain of a user into a node for the internet of things (IoT), which allows a 
+“plugged-in” brain to connect to the internet.
+• A headset of electrodes is attached, and action potentials are detected and then transmitted to a small 
+receiver called a Raspberry Pi. This device acts to convert brain activity into signals uploaded to public 
+domains on the internet.
+Acceptance by the Guide(s) :
+This project is accepted and will be carried out under my supervision.
+________________ 
+ Name & Signature 
+ Internal Guide 
